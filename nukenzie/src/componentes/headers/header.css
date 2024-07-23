@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  background-color: var(--Grey-1);
+  flex-direction: row;
+  height: 4rem;
+  justify-content: space-around;
+  align-items: center;
+}
+header > span {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.span1 {
+  font-size: var(--Title2);
+  font-weight: 900;
+  color: var(--Color-primary);
+}
+.span2Homepage {
+  font-size: var(--Title2);
+  font-weight: 900;
+}
+.btnVoltar {
+  height: 40px;
+  width: 65px;
+  border: solid transparent;
+  border-radius: 8px;
+  background-color: var(--Grey-2);
+  cursor: pointer;
+}
+@media (min-width: 800px) {
+  header {
+    gap: 55%;
+  }
+}

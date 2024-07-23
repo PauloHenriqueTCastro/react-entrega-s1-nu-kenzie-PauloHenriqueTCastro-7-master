@@ -1,0 +1,110 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--Grey-2);
+  width: 363px;
+  height: 351px;
+  border-radius: 4px;
+  gap: 10px;
+}
+form > button {
+  border: solid transparent;
+  width: 90%;
+  background-color: var(--Color-primary);
+  color: var(--White);
+  border-radius: 8px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.conteinerDescrição {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 10px;
+}
+.conteinerDescrição > h4 {
+  font-size: var(--Title4);
+  font-weight: bold;
+}
+.conteinerDescrição > input {
+  background-color: var(--Grey-1);
+  border: solid transparent;
+  height: 45px;
+  width: 96%;
+  border-radius: 8px;
+}
+.conteinerDescrição > span {
+  font-size: var(--Title4);
+  color: var(--Grey-3);
+}
+
+.conteinerTipoTransação {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 90%;
+}
+.conteinerTipoTransação > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.conteinerTipoTransação > div > h4 {
+  font-size: var(--Title4);
+  font-weight: bold;
+}
+.conteinerTipoTransação > div > input {
+  background-color: var(--Grey-1);
+  border: solid transparent;
+  height: 45px;
+  border-radius: 8px;
+}
+.conteinerTipoTransação > div > select {
+  background-color: var(--Grey-1);
+  border: solid transparent;
+  height: 52px;
+  border-radius: 8px;
+}
+.conteinerValorTotal {
+  margin-top: 16px;
+  width: 363px;
+  height: 96px;
+  border: 1px solid var(--Grey-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 8px;
+}
+.conteinerValorTotal > div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.conteinerValorTotal > div > h4 {
+  font-size: var(--Title3);
+  font-weight: bold;
+}
+.conteinerValorTotal > div > span {
+  font-size: var(--Title3);
+  color: var(--Color-primary);
+  font-weight: bold;
+}
+.conteinerValorTotal > span {
+  font-size: var(--Title4);
+  color: var(--Grey-3);
+  position: relative;
+  right: 26%;
+}
+
+@media (min-width: 800px) {
+  form {
+    height: 300px;
+  }
+}

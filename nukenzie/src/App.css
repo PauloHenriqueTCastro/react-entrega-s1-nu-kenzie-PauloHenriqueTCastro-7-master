@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  flex-direction: column;
+  align-items: center;
+}
+.conteinerCadastroTransação {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+@media (min-width: 800px) {
+  .conteinerCadastroTransação {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

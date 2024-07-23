@@ -1,0 +1,136 @@
+.conteinerLista {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.conteinerLista > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.conteinerLista > div > div {
+  display: flex;
+  gap: 16px;
+}
+.conteinerLista > div > h4 {
+  font-size: var(--Title3);
+  font-weight: bold;
+}
+.conteinerLista > div > div > button {
+  background-color: var(--Grey-2);
+  border-radius: 8px;
+  border: solid transparent;
+  height: 40px;
+  width: max-content;
+}
+.conteinerLista > div > div > button:hover {
+  background-color: var(--Color-primary);
+  color: var(--White);
+  transition: 0.3s;
+}
+ul {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.transaçãoSaida {
+  width: 90%;
+  background-color: var(--Grey-1);
+  border-left: 4px solid var(--Grey-2);
+  border-radius: 4px;
+  height: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.transaçãoSaida > span {
+  font-size: var(--Title4);
+  color: var(--Grey-3);
+  position: relative;
+  right: 40%;
+}
+.transaçãoSaida > div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.transaçãoSaida > div > h4 {
+  font-size: var(--Title3);
+  font-weight: bold;
+}
+.transaçãoSaida > div > div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.transaçãoSaida > div > div > button {
+  border-radius: 50%;
+  border: solid transparent;
+  background-color: var(--White);
+  height: 110%;
+  cursor: pointer;
+}
+.transaçãoEntrada {
+  width: 90%;
+  background-color: var(--Grey-1);
+  border-left: 4px solid var(--Color-Secondary);
+  border-radius: 4px;
+  height: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.transaçãoEntrada > span {
+  font-size: var(--Title4);
+  color: var(--Grey-3);
+  position: relative;
+  right: 40%;
+}
+.transaçãoEntrada > div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.transaçãoEntrada > div > h4 {
+  font-size: var(--Title3);
+  font-weight: bold;
+}
+.transaçãoEntrada > div > div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.transaçãoEntrada > div > div > button {
+  border-radius: 50%;
+  border: solid transparent;
+  background-color: var(--White);
+  height: 110%;
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .conteinerLista {
+    height: 386px;
+    width: 45%;
+    justify-content: flex-start;
+    margin-top: 0;
+    margin-left: 50px;
+  }
+
+  .allLi {
+    width: 100%;
+  }
+}
